@@ -1,0 +1,106 @@
+{
+  "name": "keep",
+  "productName": "Keep",
+  "version": "0.1.10",
+  "description": "Desktop app for Google Keep packaged with Electron",
+  "electronVersion": "0.36.0",
+  "main": "app/index.js",
+  "files": [
+    "build",
+    "app"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "lint": "standard",
+    "format": "prettier --write '**/*.js' && standard --fix",
+    "pack": "electron-builder --dir",
+    "dist": "npm run dist:mac && npm run dist:linux && npm run dist:win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "dist:win": "electron-builder --win",
+    "postinstall": "electron-builder install-app-deps",
+    "precommit": "lint-staged",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepolischuk/keep.git"
+  },
+  "keywords": [
+    "electron-app",
+    "electron",
+    "google",
+    "keep"
+  ],
+  "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/andrepolischuk/keep/issues"
+  },
+  "homepage": "https://github.com/andrepolischuk/keep",
+  "dependencies": {
+    "electron-config": "^1.0.0",
+    "electron-debug": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "electron-builder": "^20.44.4",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.19.1",
+    "standard": "^10.0.3"
+  },
+  "build": {
+    "appId": "com.andrepolischuk.keep",
+    "files": [
+      "**/*",
+      "build/icon.*"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "dmg": {
+      "iconSize": 160,
+      "contents": [
+        {
+          "x": 180,
+          "y": 170
+        },
+        {
+          "x": 480,
+          "y": 170,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "category": "Utility",
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "jsxBracketSameLine": true
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "standard --fix",
+      "git add"
+    ]
+  }
+}
