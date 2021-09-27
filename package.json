@@ -1,8 +1,8 @@
 {
-  "name": "keep",
-  "productName": "Keep",
+  "name": "dopebox",
+  "productName": "DopeBox",
   "version": "0.1.10",
-  "description": "Desktop app for Google Keep packaged with Electron",
+  "description": "Desktop app for Dopebox stream",
   "electronVersion": "0.36.0",
   "main": "app/index.js",
   "files": [
@@ -24,20 +24,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrepolischuk/keep.git"
+    "url": "git+https://github.com/jdevstudios/dopebox.net.git"
   },
   "keywords": [
     "electron-app",
     "electron",
-    "google",
-    "keep"
+    "stream",
+    "dopebox"
   ],
-  "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
+  "author": "Yoseph Wondafrash <brucegr33n33@gmail.com> ",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/andrepolischuk/keep/issues"
+    "url": "https://github.com/jdevstudios/dopebox.net/issues"
   },
-  "homepage": "https://github.com/andrepolischuk/keep",
+  "homepage": "https://github.com/jdevstudios/dopebox.net",
   "dependencies": {
     "electron-config": "^1.0.0",
     "electron-debug": "^1.0.1"
@@ -50,7 +50,7 @@
     "standard": "^10.0.3"
   },
   "build": {
-    "appId": "com.andrepolischuk.keep",
+    "appId": "com.yosephwondafrash.dopebox",
     "files": [
       "**/*",
       "build/icon.*"

@@ -1,8 +1,8 @@
 'use strict'
 const ipc = require('electron').ipcRenderer
 
-function isKeep () {
-  return window.location.hostname === 'keep.google.com'
+function isDope () {
+  return window.location.hostname === 'dopebox.net'
 }
 
 function injectCss (rule) {
@@ -10,7 +10,7 @@ function injectCss (rule) {
 }
 
 function handleDOMLoaded () {
-  if (!isKeep()) return
+  if (!isDope()) return
 
   if (process.platform === 'darwin') {
     injectCss(`

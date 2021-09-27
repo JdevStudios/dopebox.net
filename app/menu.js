@@ -6,7 +6,7 @@ const shell = require('electron').shell
 module.exports = function createMainMenu () {
   const template = [
     {
-      label: 'Keep',
+      label: 'DopeBox Stream',
       submenu: [
         {
           label: 'Services',
@@ -17,7 +17,7 @@ module.exports = function createMainMenu () {
           type: 'separator'
         },
         {
-          label: 'Hide Keep',
+          label: 'Hide Stream',
           accelerator: 'Cmd+H',
           role: 'hide'
         },
@@ -92,7 +92,7 @@ module.exports = function createMainMenu () {
         },
         {
           label: 'Toggle Full Screen',
-          accelerator: 'Ctrl+Cmd+F',
+          accelerator: 'Ctrl+F',
           click: (item, win) => {
             if (win) win.setFullScreen(!win.isFullScreen())
           }
@@ -124,7 +124,7 @@ module.exports = function createMainMenu () {
           type: 'separator'
         },
         {
-          label: 'Notes',
+          label: 'Home',
           accelerator: 'CmdOrCtrl+1',
           click: (item, win) => {
             win.webContents.send('navigate', 'home')
@@ -133,26 +133,26 @@ module.exports = function createMainMenu () {
           checked: true
         },
         {
-          label: 'Reminders',
+          label: 'Movies',
           accelerator: 'CmdOrCtrl+2',
           click: (item, win) => {
-            win.webContents.send('navigate', 'reminders')
+            win.webContents.send('navigate', 'movie')
           },
           type: 'radio'
         },
         {
-          label: 'Archive',
+          label: 'Tv-Series',
           accelerator: 'CmdOrCtrl+3',
           click: (item, win) => {
-            win.webContents.send('navigate', 'archive')
+            win.webContents.send('navigate', 'tv-show')
           },
           type: 'radio'
         },
         {
-          label: 'Trash',
+          label: 'Top IMDB',
           accelerator: 'CmdOrCtrl+4',
           click: (item, win) => {
-            win.webContents.send('navigate', 'trash')
+            win.webContents.send('navigate', 'top-imbd')
           },
           type: 'radio'
         }
@@ -165,7 +165,7 @@ module.exports = function createMainMenu () {
         {
           label: 'View on GitHub',
           click: () => {
-            shell.openExternal('http://github.com/andrepolischuk/keep')
+            shell.openExternal('http://github.com/jdevstudios/dopebox.net/')
           }
         }
       ]

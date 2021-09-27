@@ -13,14 +13,14 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
     width: lastWindowState.width,
     height: lastWindowState.height,
     icon: join(__dirname, '../build/icon.png'),
-    title: 'Keep',
+    title: 'DopeBox Stream',
     titleBarStyle: 'hiddenInset',
     webPreferences: {
       preload: `${__dirname}/browser.js`
     }
   })
 
-  window.loadURL('https://keep.google.com', {userAgent: 'Chrome'})
+  window.loadURL('https://dopebox.net/home', {userAgent: 'Chrome'})
   window.on('resize', handleResize)
   window.on('closed', handleClosed)
 
