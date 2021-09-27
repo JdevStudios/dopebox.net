@@ -20,7 +20,7 @@ module.exports = function createMainWindow (handleResize, handleClosed) {
     }
   })
 
-  window.loadURL('https://dopebox.net/home', {userAgent: 'Chrome'})
+  window.loadURL('https://dopebox.net/', {userAgent: 'Chrome'})
   window.on('resize', handleResize)
   window.on('closed', handleClosed)
 
