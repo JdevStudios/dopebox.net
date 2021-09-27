@@ -1,6 +1,6 @@
 #Boilerplate for electron app [![Build Status][travis-image]][travis-url]
 
-> Desktop app for [dopebox.net][dopebox] packaged with [Electron][electron]
+> Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 
 ![](media/screenshot.png)
 
@@ -30,6 +30,6 @@ sudo apt-get install nodejs-legacy
 [travis-url]: https://travis-ci.org/andrepolischuk/keep
 [travis-image]: https://travis-ci.org/andrepolischuk/keep.svg?branch=master
 
-[dopebox.net]: https://dopebox.net
+[dopebox]: https://dopebox.net
 [electron]: http://electron.atom.io
 [unlicense]: http://unlicense.org
