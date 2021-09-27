@@ -1,6 +1,6 @@
 #Boilerplate for electron app [![Build Status][travis-image]][travis-url]
 
-> Desktop app for [Google Keep][google-keep] packaged with [Electron][electron]
+> Desktop app for [dopebox.net][dopebox] packaged with [Electron][electron]
 
 ![](media/screenshot.png)
 
