@@ -17,6 +17,7 @@
     "dist": "npm run dist:mac && npm run dist:linux && npm run dist:win",
     "dist:mac": "electron-builder --mac",
     "dist:linux": "electron-builder --linux",
+    "dist:snap": "electron-builder --linux snap",
     "dist:win": "electron-builder --win",
     "postinstall": "electron-builder install-app-deps",
     "precommit": "lint-staged",
