@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+#Free streaming app [![Build Status][travis-image]][travis-url]
 
-You can use the [editor on GitHub](https://github.com/JdevStudios/dopebox.net/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](media/screenshot.png)
 
-### Markdown
+## Usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Download the latest release!](https://github.com/jdevstudios/dopebox.net/releases/latest)
 
-```markdown
-Syntax highlighted code block
+## Contribute
 
-# Header 1
-## Header 2
-### Header 3
+Fork this repository, clone to your local device and install dependencies:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+npm install
+npm start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If you use Ubuntu or Debian, you also may need to install `nodejs-legacy` that creates `node` symlink:
 
-### Jekyll Themes
+```sh
+sudo apt-get install nodejs-legacy
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JdevStudios/dopebox.net/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
+[UNLICENSE][unlicense]
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[travis-url]: https://travis-ci.org/andrepolischuk/keep
+[travis-image]: https://travis-ci.org/andrepolischuk/keep.svg?branch=master
+
+[dopebox]: https://dopebox.net
+[electron]: http://electron.atom.io
+[unlicense]: http://unlicense.org
