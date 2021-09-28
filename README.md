@@ -1,4 +1,4 @@
-#Boilerplate for electron app [![Build Status](https://app.travis-ci.com/JdevStudios/dopebox.net.svg?branch=main)](https://app.travis-ci.com/JdevStudios/dopebox.net)
+#Free streaming app [![Build Status](https://app.travis-ci.com/JdevStudios/dopebox.net.svg?branch=main)](https://app.travis-ci.com/JdevStudios/dopebox.net)
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 
 ![](media/screenshot.png)
