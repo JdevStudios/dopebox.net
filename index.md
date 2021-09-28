@@ -1,8 +1,7 @@
 #Free streaming app [![Build Status][travis-image]][travis-url]
 
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
-
-![](media/screenshot.png)
+![alt text](https://github.com/JdevStudios/dopebox.net/blob/main/media/screenshot.png?raw=true)
 
 ## Usage
 
