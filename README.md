@@ -1,4 +1,4 @@
-#Free streaming app [![Build Status](https://app.travis-ci.com/JdevStudios/dopebox.net.svg?branch=main)](https://app.travis-ci.com/JdevStudios/dopebox.net)
+#Free streaming app [![dopebox](https://snapcraft.io/dopebox/badge.svg)](https://snapcraft.io/dopebox)
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 
 ![](media/screenshot.png)
