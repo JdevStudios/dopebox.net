@@ -1,4 +1,4 @@
-#Free streaming app 
+#Free streaming app [![dopebox](https://snapcraft.io/dopebox/badge.svg)](https://snapcraft.io/dopebox)
 gh-pages/
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 ![alt text](https://github.com/JdevStudios/dopebox.net/blob/main/media/screenshot.png?raw=true)
