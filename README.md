@@ -1,5 +1,4 @@
-#Boilerplate for electron app [![Build Status][travis-image]][travis-url]
-
+#Boilerplate for electron app [![Build Status](https://app.travis-ci.com/JdevStudios/dopebox.net.svg?branch=main)](https://app.travis-ci.com/JdevStudios/dopebox.net)
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 
 ![](media/screenshot.png)
@@ -33,8 +32,6 @@ sudo apt-get install nodejs-legacy
 
 [UNLICENSE][unlicense]
 
-[travis-url]: https://travis-ci.org/andrepolischuk/keep
-[travis-image]: https://travis-ci.org/andrepolischuk/keep.svg?branch=master
 
 [dopebox]: https://dopebox.net
 [electron]: http://electron.atom.io
