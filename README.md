@@ -8,6 +8,12 @@
 
 [Download the latest release!](https://github.com/jdevstudios/dopebox.net/releases/latest)
 
+## Install
+
+```sh
+dpkg -i <app-name>
+```
+
 ## Contribute
 
 Fork this repository, clone to your local device and install dependencies:
