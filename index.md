@@ -1,4 +1,4 @@
-                                  ###Free streaming app [![Build Status][travis-image]][travis-url]
+#Free streaming app 
 gh-pages/
 > Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
 ![alt text](https://github.com/JdevStudios/dopebox.net/blob/main/media/screenshot.png?raw=true)
