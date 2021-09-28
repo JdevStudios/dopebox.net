@@ -1,5 +1,5 @@
 #Free streaming app [![dopebox](https://snapcraft.io/dopebox/badge.svg)](https://snapcraft.io/dopebox)
-> Desktop app for [dopebox][dopebox] packaged with [Electron][electron]
+> Desktop app for [dopebox][dopebox] free streaming service
 
 ![](media/screenshot.png)
 
