@@ -1,21 +1,39 @@
-#Free streaming app [![dopebox](https://snapcraft.io/dopebox/badge.svg)](https://snapcraft.io/dopebox)
-> Desktop app for [dopebox][dopebox] free streaming service
+#Desktop streaming app check out the built app from [![dopebox](https://snapcraft.io/dopebox/badge.svg)](https://snapcraft.io/dopebox)
+> Desktop streaming service 
 
-![](media/screenshot.png)
+![](0.png)
 
 ## Usage
 
-[Download the latest release!](https://github.com/jdevstudios/dopebox.net/releases/latest)
+[Buy Source Code from!](https://codecanyon.net/)
 
-## Install
+## Install the Linux App
 
 ```sh
-dpkg -i <app-name>
+cd dist
+dpkg -i <app-name>.deb
+```
+## Install Run Linux App with out installing
+
+```sh
+cd dist
+chmod +x <app-name>.run
+./<app-name>.run
+``` 
+## Install the MacOS App
+
+```sh
+execute the <app-name>.dmg file you get in dist folder 
+```
+## Install the MacOS App
+
+```sh
+execute the <app-name>.exe file you get in dist folder 
 ```
 
 ## Contribute
 
-Fork this repository, clone to your local device and install dependencies:
+Download from codecanyon toyour local device and install dependencies:
 
 ```sh
 npm install
@@ -28,11 +46,6 @@ If you use Ubuntu or Debian, you also may need to install `nodejs-legacy` that c
 sudo apt-get install nodejs-legacy
 ```
 
-## License
-
-[UNLICENSE][unlicense]
-
 
 [dopebox]: https://dopebox.net
 [electron]: http://electron.atom.io
-[unlicense]: http://unlicense.org
